@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вивчення HTML - Ресурси та Приклади</title>
+</head>
+<body>
+<header>
+    <h1>Лабораторна робота 1</h1>
+    <p>Цей документ містить відпрацьовані приклади першої лабораторної роботи.</p>
+</header>
+
+<section id="html-attributes">
+    <h3>HTML Атрибути</h3>
+    <p>Атрибути надають елементам HTML додаткову інформацію.</p>
+</section>
+
+<section id="html-paragraphs">
+    <h3>HTML Параграфи</h3>
+    <p>Параграфи в HTML використовуються для структурування тексту.</p>
+</section>
+
+<section id="html-links">
+    <h3>HTML Посилання</h3>
+    <p>Посилання - це важливі елементи для переходу між сторінками.</p>
+    <a href="https://w3schoolsua.github.io/html/html_links.html" target="_blank">Дізнатися більше про посилання</a>
+    <p>Посилання може бути і у вигляді зображення:</p>
+    <a href="https://w3schoolsua.github.io/html/html_links.html">
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Дізнатися більше про посилання" width=50>
+    </a>
+</section>
+
+<section id="html-images">
+    <h3>HTML Зображення</h3>
+    <p>Зображення є важливою частиною будь-якої веб-сторінки, приклад зоюраження:</p>
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools Зображення" width=50>
+</section>
+
+<section id="html-tables">
+    <h2>HTML Таблиці</h2>
+    <p>Таблиці використовуються для представлення даних у вигляді рядків і стовпців.</p>
+    <table border="1" width="50%">
+        <caption>Приклад таблиці</caption>
+        <tr>
+            <th>Ім'я</th>
+            <th>Вік</th>
+            <th>Місто</th>
+        </tr>
+        <tr>
+            <td>Олександр</td>
+            <td>25</td>
+            <td>Київ</td>
+        </tr>
+        <tr>
+            <td>Марія</td>
+            <td>30</td>
+            <td>Львів</td>
+        </tr>
+    </table>
+</section>
+
+<section id="html-lists">
+    <h2>HTML Списки</h2>
+    <p>Списки дозволяють впорядковувати елементи на сторінці.</p>
+    <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+    </ul>
+    <ol>
+        <li>Перший елемент</li>
+        <li>Другий елемент</li>
+        <li>Третій елемент</li>
+    </ol>
+</section>
+
+<section id="html-forms">
+    <h2>HTML Форми</h2>
+    <p>Форми дозволяють користувачам вводити дані на веб-сторінках.</p>
+    <form action="/submit" method="post">
+        <label for="name">Ім'я:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="radio" name="gender" value="male"> Чоловік<br>
+        <input type="radio" name="gender" value="female"> Жінка<br>
+        <input type="radio" name="gender" value="other"> Інше<br><br>
+        <input type="checkbox" name="vehicle1" value="Bike"> Я маю байк<br>
+        <input type="checkbox" name="vehicle2" value="Car"> Я маю авто<br><br>
+        <input type="submit" value="Відправити">
+        <input type="reset" value="Перезаповнити">
+    </form>
+</section>
+</body>
+</html>
